@@ -14,7 +14,7 @@ function runScriptWhenVisible() {
             start: 0,
             end: 100,
             easing: 'swing',
-            duration: 3000,
+            duration: 2000,
             complete: ''
         }, options);
 
@@ -24,14 +24,14 @@ function runScriptWhenVisible() {
             duration: settings.duration,
             easing: settings.easing,
             step: function () {
-                var mathCount = Math.ceil(this.count);
+                var mathCount = Math.ceil(this.count).toLocaleString();
                 thisElement.text(mathCount);
             },
             complete: settings.complete
         });
     };
 
-    $('#number1').jQuerySimpleCounter({ end: 6789, duration: 3000 });
+    $('#number1').jQuerySimpleCounter({ end: 6789, duration: 2000 });
 }
 
 var options = {

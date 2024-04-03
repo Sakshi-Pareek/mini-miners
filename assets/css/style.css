@@ -255,6 +255,7 @@
   }
   :root {
     --fs-md: 18px;
+    --fs-5md: 20px;
     --fs-2xl: 55px;
     --fs-3xl: 90px !important;
   }
