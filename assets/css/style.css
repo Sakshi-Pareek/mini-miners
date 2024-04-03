@@ -203,7 +203,7 @@
     top: 0;
     width: 100%;
     height: 100vh;
-    background-color: #bd7d41;
+    background-color: #aaaaaa;
     transition: 300ms linear;
     z-index: 10;
   }
