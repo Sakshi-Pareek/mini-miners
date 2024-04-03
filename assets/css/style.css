@@ -6,3 +6,50 @@
 .ff_reenie {
   font-family: "Reenie Beanie", cursive;
 }
+/*=========================Root==========================*/
+:root {
+  --fs-4sm: 14px;
+  --fs-6sm: 16px;
+  --fs-7sm: 17px;
+  --fs-md: 20px;
+  --fs-2md: 22px;
+  --fs-4md: 24px;
+  --fs-5md: 25px;
+  --fs-lg: 40px;
+  --fs-xl: 50px;
+  --fs-2xl: 80px;
+  --fs-3xl: 200px;
+}
+.fs_4sm {
+  font-size: var(--fs-4sm);
+}
+.fs_6sm {
+  font-size: var(--fs-6sm);
+}
+.fs_7sm {
+  font-size: var(--fs-7sm);
+}
+.fs_md {
+  font-size: var(--fs-md);
+}
+.fs_2md {
+  font-size: var(--fs-2md);
+}
+.fs_4md {
+  font-size: var(--fs-4md);
+}
+.fs_5md {
+  font-size: var(--fs-5md);
+}
+.fs_lg {
+  font-size: var(--fs-lg);
+}
+.fs_xl {
+  font-size: var(--fs-xl);
+}
+.fs_2xl {
+  font-size: var(--fs-2xl);
+}
+.fs_3xl {
+  font-size: var(--fs-3xl);
+}
