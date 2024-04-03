@@ -1,6 +1,77 @@
 .ff_ibm {
   font-family: "IBM Plex Mono", monospace;
 }
+
 .ff_reenie {
   font-family: "Reenie Beanie", cursive;
+}
+
+.opacity_70 {
+  opacity: 70%;
+}
+
+.boost_text_h {
+  line-height: 100px;
+}
+
+.mw_100 {
+  max-width: 100px;
+}
+
+.boost_corner_img {
+  top: -2px;
+  left: -1%;
+}
+
+.lh_160 {
+  line-height: 160%;
+}
+
+.dot::before {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 20px;
+  background-color: black;
+  opacity: 70%;
+  top: 40%;
+  left: 4%;
+}
+
+.mw_350 {
+  max-width: 350px;
+}
+
+.lh_normal {
+  line-height: normal;
+}
+
+.h_2 {
+  height: 1px;
+}
+.lh_150{
+  line-height: 150%;
+}
+
+@media (min-width:1200px) {
+  .boost_text_h {
+    line-height: 188px;
+  }
+}
+
+@media (min-width:992px) {
+  .mw_141 {
+    max-width: 141px;
+  }
+
+  .transform_translate {
+    transform: translateX(50px);
+  }
+}
+
+@media (min-width:576px) {
+  .lh_174 {
+    line-height: 174%;
+  }
 }
