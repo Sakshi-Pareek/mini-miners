@@ -175,7 +175,7 @@
   .under_line::after {
     position: absolute;
     content: "";
-    bottom: -36px;
+    bottom: -37px;
     margin: 0 auto;
     left: 0;
     right: 0;
