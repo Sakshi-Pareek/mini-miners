@@ -21,6 +21,9 @@
 .lh_150 {
   line-height: 150%;
 }
+.lh_160 {
+  line-height: 160%;
+}
 .lh_100 {
   line-height: 100%;
 }
@@ -128,24 +131,45 @@
 .icons:hover {
   transform: scale(1.2);
 }
+/* <!--------------------------Boost-section---------------> */
+.boost_text_h {
+  line-height: 100px;
+}
+.mw_100 {
+  max-width: 100px;
+}
+.boost_corner_img {
+  top: -4px;
+  left: -1%;
+}
+.h_2 {
+  height: 1px;
+}
+.mw_350 {
+  max-width: 350px;
+}
+.dot::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 20px;
+  background-color: black;
+  opacity: 70%;
+  top: 40%;
+  left: 4%;
+}
 /* ======================media-quaries======================= */
 @media (min-width: 1200px) {
   .max_w_1506 {
     max-width: 1506px;
   }
+  .boost_text_h {
+    line-height: 188px;
+  }
 }
 @media (max-width: 1440px) {
   :root {
-    /* --fs-4sm: 14px;
-    --fs-6sm: 16px;
-    --fs-7sm: 17px;
-    --fs-md: 20px;
-    --fs-2md: 22px;
-    --fs-4md: 24px;
-    --fs-5md: 25px;
-    --fs-lg: 40px;
-    --fs-xl: 50px;
-    --fs-2xl: 80px; */
     --fs-3xl: 180px !important;
   }
 }
@@ -153,18 +177,20 @@
   .nav_spacing {
     padding: 28px 66px;
   }
+  .wallet_btn {
+    padding: 30px 60px;
+  }
   :root {
-    /* --fs-4sm: 14px;
-    --fs-6sm: 16px;
-    --fs-7sm: 17px;
-    --fs-md: 20px;
-    --fs-2md: 22px;
-    --fs-4md: 24px;
-    --fs-5md: 25px;
-    --fs-lg: 40px;
-    --fs-xl: 50px;
-    --fs-2xl: 80px; */
     --fs-3xl: 136px !important;
+  }
+}
+@media (min-width: 992px) {
+  .mw_141 {
+    max-width: 141px;
+  }
+
+  .transform_translate {
+    transform: translateX(50px);
   }
 }
 @media (max-width: 991px) {
@@ -209,33 +235,33 @@
   .nav_spacing {
     padding: 20px 66px;
   }
-  .wallet_btn {
-    padding: 35px 70px;
-  }
 }
 @media (max-width: 767px) {
   .nav_spacing {
     padding: 12px 16px;
   }
   :root {
-    /* --fs-4sm: 14px;
-    --fs-6sm: 16px;
-    --fs-7sm: 17px;
-    --fs-md: 20px;
-    --fs-2md: 22px;
-    --fs-4md: 24px;
-    --fs-5md: 25px;
-    --fs-lg: 40px;
-    --fs-xl: 50px;
-    --fs-2xl: 80px; */
     --fs-3xl: 90px !important;
   }
   .wallet_btn {
     padding: 32px 60px;
   }
 }
-@media (max-width:576px){
+@media (max-width: 576px) {
   .wallet_btn {
-    padding: 30px 50px;
+    padding: 25px 50px;
+  }
+  :root {
+    --fs-md: 18px;
+    --fs-2xl: 55px;
+    --fs-3xl: 90px !important;
+  }
+  .boost_text_h {
+    line-height: 60px;
+  }
+}
+@media (min-width: 576px) {
+  .lh_174 {
+    line-height: 174%;
   }
 }
